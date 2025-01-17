@@ -1,0 +1,21 @@
+.providerTable {
+  box-sizing: border-box;
+
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th,
+  td {
+    padding: 5px;
+    text-align: left;
+  }
+  th {
+    min-width: 200px;
+  }
+  td {
+    padding: 8px;
+    word-break: break-all;
+  }
+}

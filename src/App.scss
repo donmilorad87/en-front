@@ -1,0 +1,317 @@
+@font-face {
+  font-family: "Myriad Web Pro Regular";
+  src: url("./assets/fonts/Myriad\ Web\ Pro\ Regularr/Myriad Web Pro Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Oswald Bold";
+  src: url("./assets/fonts/Oswald/Oswald-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lato Light";
+  src: url("./assets/fonts/Lato/Lato-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bebas Regular";
+  src: url("./assets/fonts/Bebas/Bebas-Regular.ttf") format("truetype");
+}
+.bebasRegular {
+  font-family: "Bebas Regular";
+}
+.latoLight {
+  font-family: "Lato Light";
+}
+.oswaldBold {
+  font-family: "Oswald Bold";
+}
+.maxH550px {
+  max-height: 550px;
+}
+.minH550px {
+  min-height: 550px;
+}
+.minH600px {
+  min-height: 600px;
+}
+.w350px {
+  width: 350px;
+  max-width: calc(100% - 2rem);
+}
+.o0dot5 {
+  opacity: 0.5;
+}
+.o0dot7 {
+  opacity: 0.7;
+}
+.o1 {
+  opacity: 1;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.paddings {
+  padding: 1rem calc((100dvw - 1200px) / 2);
+}
+.f1 {
+  flex: 1;
+}
+.f2 {
+  flex: 2;
+}
+.f3 {
+  flex: 3;
+}
+.f4 {
+  flex: 4;
+}
+.f5 {
+  flex: 5;
+}
+.df {
+  display: flex;
+}
+.db {
+  display: block;
+}
+.dn {
+  display: none;
+}
+.aic {
+  align-items: center;
+}
+.mla {
+  margin-left: auto;
+}
+.g0dot5 {
+  gap: 0.5em;
+}
+.g0dot6 {
+  gap: 0.6em;
+}
+.g1 {
+  gap: 1rem;
+}
+.g2 {
+  gap: 2rem;
+}
+.g3 {
+  gap: 3rem;
+}
+.fs16 {
+  font-size: 16px;
+}
+.fs21 {
+  font-size: 21px;
+}
+.fs22 {
+  font-size: 22px;
+}
+.fs25 {
+  font-size: 25px;
+}
+.lh1 {
+  line-height: 1;
+}
+.tdu {
+  text-decoration: underline;
+}
+.fsi {
+  font-style: italic;
+}
+.mr1 {
+  margin-right: 1rem;
+}
+.hfc {
+  height: fit-content;
+}
+.aifs {
+  align-items: flex-start;
+}
+.w100 {
+  width: 100%;
+}
+.w32px {
+  width: 32px;
+}
+.posabsolute {
+  position: absolute;
+}
+.posrelative {
+  position: relative;
+}
+.fdc {
+  flex-direction: column;
+}
+.fdcres {
+  flex-direction: column;
+}
+.cBlack {
+  color: black;
+}
+.m0 {
+  margin: 0;
+}
+.jcc {
+  justify-content: center;
+}
+.lsn {
+  list-style: none;
+}
+
+.pl2 {
+  padding-left: 2rem;
+}
+.pr2 {
+  padding-right: 2rem;
+}
+.b0 {
+  bottom: 0px;
+}
+.mt5 {
+  margin-top: 5rem;
+}
+.mt10 {
+  margin-top: 10rem;
+}
+.mt1 {
+  margin-top: 1rem;
+}
+.mb1 {
+  margin-bottom: 1rem;
+}
+.ml1 {
+  margin-left: 1rem;
+}
+.mb0 {
+  margin-bottom: 0rem;
+}
+.mt0 {
+  margin-top: 0rem;
+}
+.ttu {
+  text-transform: uppercase;
+}
+.bWhite {
+  background-color: white;
+}
+.cWhite {
+  color: white;
+}
+.cBlack {
+  color: #4d4d4d;
+}
+.cPrimary {
+  color: #414f6b;
+}
+.cPrimaryDark {
+  color: #333e54;
+}
+.bPrimary {
+  background-color: #414f6b;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Myriad Web Pro Regular";
+  width: 100%;
+  height: 100%;
+}
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.bb1 {
+  border-bottom: 1px solid;
+}
+.bg1 {
+  border: 1px solid #bcc3c6;
+}
+.br50 {
+  border-radius: 50%;
+}
+@media (min-width: 0px) and (max-width: 1230px) {
+  .paddings {
+    padding: 1rem;
+  }
+}
+
+.pt0 {
+  padding-top: 0;
+}
+.pb0 {
+  padding-bottom: 0;
+}
+.p1 {
+  padding: 1rem;
+}
+.pt1 {
+  padding-top: 1rem;
+}
+.pb1 {
+  padding-bottom: 1rem;
+}
+@media (min-width: 600px) {
+  .fdcres {
+    flex-direction: row;
+  }
+}
+.zi1 {
+  z-index: 1;
+}
+
+.zi2{
+  z-index: 2;
+}
+.zi10{
+  z-index: 10;
+}
+.zi90{
+  z-index: 90;
+}
+.zi100{
+  z-index: 100;
+}

@@ -1,0 +1,16 @@
+{
+    "SIGN_UP_CAN_NOT_FIND_INVITATION_TOKEN_one": "Can not find invitation with that invitationToken",
+    "SIGN_UP_CAN_NOT_FIND_INVITATION_TOKEN_other": "Can not find invitation with that invitationTokens",
+    "SIGN_UP_YOUR_TOKEN_FOR_ACTIVATION_HAS_BEEN_EXPIRED_one": "Your token for activation has been expired",
+    "SIGN_UP_USER_DID_NOT_ACCEPTED_TERMS_AND_CONDITIONS_one": "User did not accepted terms and conditions",
+    "SIGN_UP_BEARER_TOKEN_IS_NOT_VALID_one": "Bearer token is not valid",
+    "SIGN_UP_BEARER_TOKEN_IS_EXPIRED_one": "Bearer token is expired",
+    "SIGN_UP_YOU_ALREADY_HAVE_ACCOUNT_one": "You already have account, you can not use sing up route",
+    "SIGN_UP_USER_ALREADY_EXIST_one": "User Already Exist",
+    "SIGN_UP_FILE_UPLOAD_ERROR_one": "File upload: error ocured. try again.",
+    "SIGNUP_PAGE_one": "{\ntitle: \"Signup Here\",\nsubtitle: \"Create an account now\"\n}",
+    "TEST_PREVOD_one": "Test Translate",
+    "TEST_PREVOD_other": "test prevodi",
+    "English": "English",
+    "Serbian": "Serbian"
+}

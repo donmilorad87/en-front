@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: nowrap;
+  a {
+    padding: 4px;
+    &.active {
+      outline: 2px solid black;
+    }
+  }
+}

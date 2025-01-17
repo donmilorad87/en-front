@@ -1,0 +1,16 @@
+{
+    "SIGN_UP_CAN_NOT_FIND_INVITATION_TOKEN_one": "",
+    "SIGN_UP_CAN_NOT_FIND_INVITATION_TOKEN_other": "Can not find invitation with that invitationTokens",
+    "SIGN_UP_YOUR_TOKEN_FOR_ACTIVATION_HAS_BEEN_EXPIRED_one": "",
+    "SIGN_UP_USER_DID_NOT_ACCEPTED_TERMS_AND_CONDITIONS_one": "",
+    "SIGN_UP_BEARER_TOKEN_IS_NOT_VALID_one": "",
+    "SIGN_UP_BEARER_TOKEN_IS_EXPIRED_one": "",
+    "SIGN_UP_YOU_ALREADY_HAVE_ACCOUNT_one": "",
+    "SIGN_UP_USER_ALREADY_EXIST_one": "",
+    "SIGN_UP_FILE_UPLOAD_ERROR_one": "",
+    "SIGNUP_PAGE_one": "",
+    "TEST_PREVOD_one": "Test Prevod srb",
+    "TEST_PREVOD_other": "test prevodi",
+    "English": "Engleski",
+    "Serbian": "Srpski"
+}
